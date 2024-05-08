@@ -17,7 +17,7 @@
     <div class="container my-5">
         <h1>Hello World</h1>
         <h2>Welcome to Laravel, {{ $name }} {{ $surname }}!</h2>
-        <a href="http://127.0.0.1:8000/">Click to Header</a>
+        <a href="{{ route('header') }}">Click to Header</a>
     </div>
 </body>
 
