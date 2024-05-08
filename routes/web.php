@@ -13,14 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/header', function () {
+Route::get('/', function () {
 
     $text = 'Ciao';
 
     return view('header', compact('text'));
 })->name('header');
 
-Route::get('/', function () {
+Route::get('/home', function () {
 
     $name = 'Ken';
     $surname = 'Okazashi';
