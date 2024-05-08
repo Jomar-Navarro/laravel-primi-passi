@@ -14,6 +14,7 @@
 <body>
     <div class="container my-5">
         <h1>Hello World</h1>
+        <h2>Welcome to Laravel, {{ $name }} {{ $surname }}!</h2>
     </div>
 </body>
 
